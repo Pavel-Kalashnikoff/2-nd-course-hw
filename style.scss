@@ -1,0 +1,143 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+.top {
+	height: 1024px;
+	background-image: url(./IMG/Fons_top.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	position: relative;
+	&__header {
+		position: absolute;
+		margin-top: 218px;
+		&_title {
+			color: #fff;
+			font-size: 64px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+		&_subtitle {
+			margin-top: 32px;
+		}
+		&_button {
+			margin-top: 44px;
+			transition: background-color 0.3s;
+		}
+		&_button:hover {
+			background-color: #6a0220;
+		}
+	}
+}
+.subtitle {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 32px;
+}
+.button {
+	box-sizing: border-box;
+	background-color: #9C0332;
+	outline: none;
+	border: none;
+	border-radius: 30px;
+	width: 234px;
+	height: 48px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	color: #fff;
+}
+.conteiner {
+	background-image: url(./IMG/fons_content.jpg);
+	height: 556px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	position: relative;
+}
+.select-of {
+	display: flex;
+	gap: 32px;
+	position: absolute;
+	margin-top: 128px;
+	margin-bottom: 128px;
+	&__one {
+		position: relative;
+		 &_img {
+			border-radius: 16px;
+			transition: transform 0.4s;
+		 }
+		 &_img:hover {
+			transform: scale(1.1);
+		 }
+		 &_title {
+			position: absolute;
+			bottom: 32px;
+			left: 32px;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 32px;
+			color: #fff;
+		 }
+	}
+	&__two {
+		position: relative;
+		 &_img {
+			border-radius: 16px;
+			transition: transform 0.4s;
+		 }
+		 &_img:hover {
+			transform: scale(1.1);
+		 }
+		 &_title {
+			position: absolute;
+			bottom: 32px;
+			left: 32px;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 32px;
+			color: #fff;
+		 }
+	}
+	&__three {
+		position: relative;
+		 &_img {
+			border-radius: 16px;
+			transition: transform 0.4s;
+		 }
+		 &_img:hover {
+			transform: scale(1.1);
+		 }
+		 &_title {
+			position: absolute;
+			bottom: 32px;
+			left: 32px;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 32px;
+			color: #fff;
+		 }
+	}
+}
