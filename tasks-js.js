@@ -4,5 +4,5 @@ a = 20;
 alert(a);
 let year = 2007;
 alert(year);
-let nameCreatorJS = Brendan Eich;
+let nameCreatorJS = BrendanEich;
 alert(nameCreatorJS);
