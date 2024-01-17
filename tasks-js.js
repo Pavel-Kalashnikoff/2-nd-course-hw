@@ -33,3 +33,22 @@ alert(num);
 
 let age = prompt("Сколько вам лет?");
 alert(age);
+
+let user  = {
+	name: "Pavel", 
+	age: 30,
+	isAdmin: true 
+}
+user.cityOfResidence = "Тверь";
+
+user.age = 23;
+
+delete cityOfResidence;
+
+let info = prompt('Какую информацию вы хотите узнать о пользователе?');
+
+alert(user[info]);
+
+let nameUser = prompt("Напишите ваше имя");
+
+alert("Привет, " + nameUser + "!");
