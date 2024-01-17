@@ -14,3 +14,6 @@ alert(b-c);
 alert(b*c);
 alert(b/c);
 
+let numberToThePower = 2**5;
+let result = numberToThePower;
+alert(result)
