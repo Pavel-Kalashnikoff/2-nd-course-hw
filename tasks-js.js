@@ -22,4 +22,11 @@ let a_1 = 9;
 let b_1 = 2;
 alert(a_1/b_1);
 
-
+let num = 1;
+num = num + 5;
+num = num - 3;
+num = num * 7;
+num = num / 3;
+num = num ++;
+num = num --;
+alert(num);
