@@ -17,3 +17,9 @@ alert(b/c);
 let numberToThePower = 2**5;
 let result = numberToThePower;
 alert(result)
+
+let a_1 = 9;
+let b_1 = 2;
+alert(a_1/b_1);
+
+
