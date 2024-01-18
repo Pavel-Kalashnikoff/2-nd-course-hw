@@ -23,12 +23,12 @@ let b_1 = 2;
 alert(a_1/b_1);
 
 let num = 1;
-num = num + 5;
-num = num - 3;
-num = num * 7;
-num = num / 3;
-num = num ++;
-num = num --;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num += 1;
+num -= 1;
 alert(num);
 
 let age = prompt("Сколько вам лет?");
@@ -51,4 +51,4 @@ alert(user[info]);
 
 let nameUser = prompt("Напишите ваше имя");
 
-alert("Привет, " + nameUser + "!");
+alert(`Привет, ${nameUser} !`);
