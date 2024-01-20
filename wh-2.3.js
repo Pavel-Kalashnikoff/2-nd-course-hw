@@ -1,4 +1,8 @@
 let password = 'Original password'; 
 let requested = prompt("Введите пароль");
 
-if (password == 'Original password') alert ("Пароль введен верно");
+if (requested === 'Original password') {
+alert ('Пароль введен верно');
+} else {
+	alert ('Пароль введен неправильно');
+}
