@@ -179,6 +179,7 @@ body {
   .top__header_subtitle {
     width: 342px;
     margin-top: 0;
+    text-align: center;
   }
   .top__header_button {
     margin-top: 0;
