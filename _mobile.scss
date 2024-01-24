@@ -60,3 +60,38 @@ height: 1221px;
 }
 
 }
+@media (max-width: 1024px) {
+	.center {
+		padding-left: calc(50% - 315px);
+		padding-right: calc(50% - 315px);
+	}
+	.top {
+		&__header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		&__header_title {
+			text-align: center;
+		}
+	}
+	.select-of {
+		margin-left: 30px;
+		&__one_img {
+			width: 300px;
+			height: 280px;
+		}
+		&__two_img {
+			width: 300px;
+			height: 280px;
+		}
+		&__three_img {
+			width: 300px;
+			height: 280px;
+		}
+	}
+	.img_mobile {
+		width: 300px;
+		height: 280px;
+		}
+	}
