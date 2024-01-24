@@ -29,3 +29,10 @@ while (n >=50) {
 	num++;
 }
 console.log("количество итераций:", num);
+
+
+for (let Friday = 1; Friday < 31; Friday++) {
+	if (Friday === 5 || Friday === 12 || Friday === 19 || Friday === 26) {
+		console.log(`Сегодня паятница, ${Friday} число. Необходимо подготовить отчёт`)
+	}
+}
