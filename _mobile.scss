@@ -1,0 +1,242 @@
+@media (max-width: 1024px) {
+	.center {
+		padding-left: calc(50% - 315px);
+		padding-right: calc(50% - 315px);
+	}
+	.center_mobile {
+		margin-left: -164px;
+		// только так придумал отодвинуть блок контейнера с карточками, если есть подсказки как это можно было сделать проще и красивее, то обязательно напишите
+	}
+	.top {
+		&__header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		&__header_title {
+			text-align: center;
+		}
+	}
+	.select-of {
+		&__one_img {
+			width: 300px;
+			height: 280px;
+		}
+		&__two_img {
+			width: 300px;
+			height: 280px;
+		}
+		&__three_img {
+			width: 300px;
+			height: 280px;
+		}
+	}
+	.img_mobile {
+		width: 300px;
+		height: 280px;
+		}
+	}
+
+@media (max-width: 768px) {
+	.center {
+		padding-left: calc(50% - 315px);
+		padding-right: calc(50% - 315px);
+	}
+	.center_mobile {
+		margin-left: 0px;
+	}
+	.top {
+		&__header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		&__header_title {
+			text-align: center;
+		}
+	}
+	.conteiner {
+		height: 1000px;
+	}
+	.select-of {
+		flex-wrap: wrap;
+		margin-top: 0;
+		justify-content: center;
+		&__one_img {
+			width: 379px;
+			height: 300px;
+		}
+		&__two_img {
+			width: 379px;
+			height: 300px;
+		}
+		&__three_img {
+			width: 379px;
+			height: 300px;
+		}
+	}
+	.img_mobile {
+		width: 379px;
+		height: 300px;
+		}
+}
+
+@media (max-width: 425px) {
+	.center {
+		padding-left: 38px;
+		padding-right: 38px;
+	}
+	.center_mobile {
+		margin-left: 0px;
+	}
+	.title {
+		font-size: 32px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		}
+		.subtitle {
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 22px;
+		}
+	.top {
+		background-position: 30%;
+		&__header {
+			width: 342px;
+			margin-top: 238px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 32px;
+			&_subtitle {
+				width: 342px;
+				margin-top: 0;
+				text-align: center;
+			}
+			&_button {
+				margin-top: 0;
+			}
+		}
+	}
+	.conteiner {
+		height: 1000px;
+	}
+	.select-of {
+		flex-wrap: wrap;
+		margin-top: 0;
+		justify-content: center;
+		&__one_img {
+			width: 342px;
+			height: 300px;
+		}
+		&__two_img {
+			width: 342px;
+			height: 300px;
+		}
+		&__three_img {
+			width: 342px;
+			height: 300px;
+		}
+	}
+	.img_mobile {
+		width: 342px;
+		height: 300px;
+		}
+}
+
+@media (max-width: 375px) {
+	.center {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.title {
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	}
+	.subtitle {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 22px;
+	}
+	.top {
+		background-position: 30%;
+		&__header {
+			width: 342px;
+			margin-top: 238px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 32px;
+			&_subtitle {
+				width: 342px;
+				margin-top: 0;
+				text-align: center;
+			}
+			&_button {
+				margin-top: 0;
+			}
+		}
+	}
+	.conteiner { 
+	height: 1221px;
+	}
+	.select-of { 
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+		&__one_img {
+			width: 343px;
+			height: 300px;
+		}
+		&__two_img {
+			width: 343px;
+			height: 300px;
+		}
+		&__three_img {
+			width: 343px;
+			height: 300px;
+		}
+	}
+	.img_mobile {
+		width: 343px;
+		height: 300px;
+	}
+}
+@media (max-width: 320px) {
+	.center {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.title {
+	font-size: 26px;
+	}
+	.top {
+		background-position: 30%;
+		&__header {
+			width: 300px;
+	}
+}
+.select-of { 
+	&__one_img {
+		width: 300px;
+		height: 280px;
+	}
+	&__two_img {
+		width: 300px;
+		height: 280px;
+	}
+	&__three_img {
+		width: 300px;
+		height: 280px;
+	}
+}
+.img_mobile {
+	width: 300px;
+	height: 280px;
+}
+}
