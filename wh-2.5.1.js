@@ -14,7 +14,16 @@ function even (nubmer) {
 console.log (even (8));
 console.log (even (7));
 
-function square(result) {
-	let a = prompt ('Введите число');
-	console.log ()
+
+function squarNumber(number) {
+	let squar = number * number;
+	console.log ("Квадрат числа", number, "это", squar);
 }
+
+// function squar(number) {
+// 	let result = number ** 2;
+// 	return result
+// }
+
+// console.log (squar(5));
+// console.log (squar(9));
