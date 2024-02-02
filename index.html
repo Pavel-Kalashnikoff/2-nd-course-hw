@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+	<script src="./Game_one.js"></script>
 	<div class="top center">
 		<div class="top__header">
 			<h1 class="top__header_title title">Добро пожаловать <br> на мой сайт !</h1>
@@ -57,7 +58,7 @@
 			<div class="Game-1__seasons">
 				<h2 class="Game-1__seasons_title">Времена года!</h2>
 				<p class="Game-1__seasons_subtitle">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-				<button class="Game-1__seasons_button button">Играть</button>
+				<button id="button_gameOne" onclick="GameOne()" class="Game-1__seasons_button button">Играть</button>
 			</div>
 			<div class="Game-1__img">
 				<img class="Game-1__img_mobile" src="./IMG/Seasons_game.png" alt="Сезонная игра">
