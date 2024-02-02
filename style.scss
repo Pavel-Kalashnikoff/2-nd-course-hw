@@ -145,7 +145,38 @@ body {
 .Game-1 {
 	background-color: rgb(0, 9, 21);
 	height: 800px;
-	display: flex
-	
+	display: flex;
+	justify-content: space-between;
+	&__seasons {
+		margin-top: 282px;
+		display: flex;
+		gap: 32px;
+		flex-direction: column;
+		&_title {
+			font-size: 48px;
+			font-weight: 700;
+			color: #fff;
+			line-height: 59px;
+			text-align: left;
+		}
+		&_subtitle {
+			font-size: 18px;
+			font-weight: 300;
+			color: #fff;
+			line-height: 32px;
+			text-align: left;
+			color: #fff;
+			width: 585px;
+		}
+		&_button {
+			transition: background-color 0.3s;
+		}
+		&_button:hover {
+			background-color: #6a0220;
+		}
+	}
+	&__img {
+		margin-top: 232px;
+	}
 }
 @import 'mobile';

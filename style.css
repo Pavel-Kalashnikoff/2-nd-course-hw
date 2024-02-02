@@ -148,6 +148,44 @@ body {
   color: #fff;
 }
 
+.Game-1 {
+  background-color: rgb(0, 9, 21);
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.Game-1__seasons {
+  margin-top: 282px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+.Game-1__seasons_title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 59px;
+  text-align: left;
+}
+.Game-1__seasons_subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 32px;
+  text-align: left;
+  color: #fff;
+  width: 585px;
+}
+.Game-1__seasons_button {
+  transition: background-color 0.3s;
+}
+.Game-1__seasons_button:hover {
+  background-color: #6a0220;
+}
+.Game-1__img {
+  margin-top: 232px;
+}
+
 @media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 315px);
