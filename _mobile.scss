@@ -4,7 +4,7 @@
 		padding-right: calc(50% - 315px);
 	}
 	.center_mobile {
-		margin-left: -164px;
+		margin-left: -16px;
 		// только так придумал отодвинуть блок контейнера с карточками, если есть подсказки как это можно было сделать проще и красивее, то обязательно напишите
 	}
 	.top {
@@ -18,6 +18,9 @@
 		}
 	}
 	.select-of {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 0;
 		&__one_img {
 			width: 300px;
 			height: 280px;
@@ -39,7 +42,7 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			&__seasons {
-				margin-top: 78px;
+				margin-top: 128px;
 				align-items: center
 			}
 			&__img {
