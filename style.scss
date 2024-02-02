@@ -39,10 +39,15 @@ body {
 		}
 		&_button {
 			margin-top: 44px;
-			transition: background-color 0.3s;
+			transition: 0.5s;
+			background-size: 200% auto;
+			color: #fff;
+			box-shadow: 0 0 10px #adadad;
+			border-radius: 10px;
+			background-image: linear-gradient(to right, #9C0332 10%, #9C0332 23%, #480318 100%);
 		}
 		&_button:hover {
-			background-color: #6a0220;
+			background-position: right center;
 		}
 	}
 }
@@ -169,10 +174,16 @@ body {
 			width: 585px;
 		}
 		&_button {
-			transition: background-color 0.3s;
+			margin-top: 44px;
+			transition: 0.5s;
+			background-size: 200% auto;
+			color: #fff;
+			box-shadow: 0 0 10px #adadad;
+			border-radius: 10px;
+			background-image: linear-gradient(to right, #9C0332 10%, #9C0332 23%, #480318 100%);
 		}
 		&_button:hover {
-			background-color: #6a0220;
+			background-position: right center;
 		}
 	}
 	&__img {

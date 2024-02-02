@@ -42,10 +42,15 @@ body {
 }
 .top__header_button {
   margin-top: 44px;
-  transition: background-color 0.3s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 10px #adadad;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #9C0332 10%, #9C0332 23%, #480318 100%);
 }
 .top__header_button:hover {
-  background-color: #6a0220;
+  background-position: right center;
 }
 
 .subtitle {
@@ -177,10 +182,16 @@ body {
   width: 585px;
 }
 .Game-1__seasons_button {
-  transition: background-color 0.3s;
+  margin-top: 44px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 10px #adadad;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #9C0332 10%, #9C0332 23%, #480318 100%);
 }
 .Game-1__seasons_button:hover {
-  background-color: #6a0220;
+  background-position: right center;
 }
 .Game-1__img {
   margin-top: 232px;
