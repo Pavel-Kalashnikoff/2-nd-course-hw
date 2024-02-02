@@ -47,7 +47,7 @@ body {
   color: #fff;
   box-shadow: 0 0 10px #adadad;
   border-radius: 10px;
-  background-image: linear-gradient(to right, #9C0332 10%, #9C0332 23%, #480318 100%);
+  background-image: linear-gradient(to right, #9C0332 10%, #9C0332 23%, #b27587 100%);
 }
 .top__header_button:hover {
   background-position: right center;
@@ -188,7 +188,7 @@ body {
   color: #fff;
   box-shadow: 0 0 10px #adadad;
   border-radius: 10px;
-  background-image: linear-gradient(to right, #9C0332 10%, #9C0332 23%, #480318 100%);
+  background-image: linear-gradient(to right, #9C0332 10%, #9C0332 23%, #b27587 100%);
 }
 .Game-1__seasons_button:hover {
   background-position: right center;
