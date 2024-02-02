@@ -42,7 +42,7 @@ body {
 }
 .top__header_button {
   margin-top: 44px;
-  transition: 0.5s;
+  transition: 0.6s;
   background-size: 200% auto;
   color: #fff;
   box-shadow: 0 0 10px #adadad;
@@ -183,7 +183,7 @@ body {
 }
 .Game-1__seasons_button {
   margin-top: 44px;
-  transition: 0.5s;
+  transition: 0.6s;
   background-size: 200% auto;
   color: #fff;
   box-shadow: 0 0 10px #adadad;
