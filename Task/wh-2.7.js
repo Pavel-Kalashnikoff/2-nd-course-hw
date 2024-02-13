@@ -68,7 +68,7 @@ const minNumber = Math.min(...arrNumber);
 console.log (minNumber);
 
 
-//Задание №5 
+//Задание №5 Рандом
 function random(min, max) {
 	// let randomNumber = Math.random();
 	// console.log(randomNumber); // Проверил.
@@ -80,3 +80,17 @@ function random(min, max) {
 } 
 let result = random(0, 10);
 console.log(result);
+
+//Задание №6 функция которая возвращает массив случайных чисел от 0 до определенного числа
+
+function getRandomArrNumber(max) {
+	const randomArrNumber = [];
+	max = Math.ceil(max);
+	for (let i = 0; i < 3; i++) { // Цикл для генерации случайных чисел в пределах 3 
+		let randomN = Math.floor(Math.random() * max); // Приводим к меньшему число, то которое появляется рандомно и умножается на 7
+		randomArrNumber.push(randomN);
+	}
+	return randomArrNumber;
+}
+let resultArr = getRandomArrNumber(7);
+console.log(resultArr);
