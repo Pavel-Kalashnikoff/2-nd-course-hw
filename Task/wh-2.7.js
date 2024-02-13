@@ -108,7 +108,17 @@ console.log(resultTwoNumber);
 
 
 //Задание 8 вывести время и дату
+
 const currentDate = new Date();
 console.log(currentDate);
 // Не стал усложнять себе задачу и просто вывел текущую дату и время, как и сказано в задании
+
+
+// Задание 9 вывести дату с текущего момента через 73 дня
+
+const theCurrentDate = new Date();
+const current = theCurrentDate.getDate();  // присваиваем переменной текущую дату
+theCurrentDate.setDate(current + 73); // устанавливаем к текущей дате сумму нашей даты и 73 дня, получаем дату через 73 дня
+
+console.log(theCurrentDate);
 
