@@ -59,6 +59,7 @@ console.log(a);
 console.log(b);
 console.log(c);
 
+
 // Здание №4 Найти наименьшее и наибольшее число
 const arrNumber = [52, 53, 49, 77, 21, 32];
 const maxNumber = Math.max(...arrNumber);
@@ -66,3 +67,16 @@ console.log (maxNumber);
 const minNumber = Math.min(...arrNumber);
 console.log (minNumber);
 
+
+//Задание №5 
+function random(min, max) {
+	// let randomNumber = Math.random();
+	// console.log(randomNumber); // Проверил.
+	// return Math.random() * (max - min) + min
+	// Напишу по-другому
+	min = Math.ceil(min);
+	max = Math.floor(max);
+	return Math.floor(Math.random() * (max - min) + min);
+} 
+let result = random(0, 10);
+console.log(result);
