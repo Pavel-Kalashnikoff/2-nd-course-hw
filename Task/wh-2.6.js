@@ -33,10 +33,13 @@ arreyPush.push(2, 2, 2);
 console.log(arreyPush);
 
 const arrSort = [9, 8, 7, 'a', 6, 5];
-// arrSort.sort ();
-// arrSort.splice(5);
-// console.log(arrSort);
-console.log(arrSort.sort (),arrSort.splice(5)) // Решил сократить написание, так будет корректно? 
+	arrSort.sort ();
+	console.log(arrSort); // вывел в консоль для определения индекса
+	const index = 5;
+	arrSort.splice(index, 1); // Определил индекст "а" и удалил его методов splice
+	console.log(arrSort); 
+ 
+// console.log(arrSort.sort (),arrSort.splice(5)) Решил сократить написание, так будет корректно? 
 
 Game()
 function Game() {
