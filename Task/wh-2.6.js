@@ -68,18 +68,16 @@ for (let index = 0; index < whole.length - 1; index++) {
   console.log(sum);
 }
 
-const number = [1, 2, 3, 4,]
+const number = [1, 2, 3, 4]
 function square(number) {
-	const square = number.map(n => n ** 2)
-	return square
+	return number.map(n => n ** 2).join(', ');
 }
 const resul = square(number);
 console.log(resul);
 
 
 function word(arrey) {
-	const wordlen = arrey.map(len => len.length);
-	 return wordlen
+	return wordlen = arrey.map(len => len.length);
 }
 const arreyLen = ['слово', '', 'слог', 'длинное предложение', 'буква']
 const len = word(arreyLen);
@@ -87,8 +85,7 @@ console.log(len);
 
 
 function filterPositive(array) {
-	const negativ = array.filter(n => n < 0);
-  return negativ;
+	return negativ = array.filter(n => n < 0);
 }
 
 console.log(filterPositive([-1, 0, 5, -10, 56])); // => [-1, -10]
