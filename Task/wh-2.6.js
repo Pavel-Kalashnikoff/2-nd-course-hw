@@ -73,7 +73,7 @@ function square(number) {
 	const square = number.map(n => n ** 2)
 	return square
 }
-const resul = square(Number);
+const resul = square(number);
 console.log(resul);
 
 
