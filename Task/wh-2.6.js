@@ -1,9 +1,9 @@
 const a = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < a.length; i++) {
+	console.log(a[i]);
 	if (a[i] === 10) {
 		break;
 	}
-	console.log(a[i]);
 }
 
 const arr = [1, 5, 4, 10, 0, 3];
