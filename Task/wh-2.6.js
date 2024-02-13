@@ -41,8 +41,8 @@ const arrSort = [9, 8, 7, 'a', 6, 5];
  
 // console.log(arrSort.sort (),arrSort.splice(5)) Решил сократить написание, так будет корректно? 
 
-Game()
-function Game() {
+game()
+function game() {
 	const arrGame = [9, 8, 7, 6, 5];
 	let p = prompt('Попробуй угадать число в невидимом массиве');
 	if (arrGame.includes(p)) {
@@ -60,29 +60,29 @@ const arrey2 = [[1, 2, 3], [4, 5,6]];
 const flatA = arrey2.flat();
 console.log(flatA);
 
-const Whole = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (let index = 0; index < Whole.length - 1; index++) {
-	const a = Whole[index];
-	const b = Whole[index + 1];
+const whole = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let index = 0; index < whole.length - 1; index++) {
+	const a = whole[index];
+	const b = whole[index + 1];
   const sum = a + b;
   console.log(sum);
 }
 
-const Number = [1, 2, 3, 4,]
-function square(Number) {
-	const square = Number.map(n => n ** 2)
+const number = [1, 2, 3, 4,]
+function square(number) {
+	const square = number.map(n => n ** 2)
 	return square
 }
 const resul = square(Number);
 console.log(resul);
 
 
-function Word(arrey) {
-	const Wordlen = arrey.map(len => len.length);
-	 return Wordlen
+function word(arrey) {
+	const wordlen = arrey.map(len => len.length);
+	 return wordlen
 }
 const arreyLen = ['слово', '', 'слог', 'длинное предложение', 'буква']
-const len = Word(arreyLen);
+const len = word(arreyLen);
 console.log(len);
 
 
