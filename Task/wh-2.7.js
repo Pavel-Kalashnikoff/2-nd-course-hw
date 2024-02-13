@@ -94,3 +94,17 @@ function getRandomArrNumber(max) {
 }
 let resultArr = getRandomArrNumber(7);
 console.log(resultArr);
+
+// Задание №7 Функция принимает два числа и возвращает рандомное число в диапазоне этих чисел
+
+function TwoNumber(min, max) {
+	min = Math.floor(min);
+	max = Math.ceil(max);
+	return Math.floor(Math.random() * (max - min) + min);
+}
+let resultTwoNumber = TwoNumber(23, 467);
+console.log(resultTwoNumber);
+// Задания 5 и 7 похожи, берём два числа на входе и выдаём на выход рандомные числа в этом диапазоне
+
+
+
