@@ -291,6 +291,19 @@ body {
   .Game-1__img {
     margin-top: 10px;
   }
+  .Game-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 228px;
+    gap: 32px;
+  }
+  .Game-2__seasons {
+    margin-top: 0px;
+    align-items: center;
+  }
+  .Game-2__img {
+    margin-top: 10px;
+  }
 }
 @media (max-width: 768px) {
   .center {
@@ -412,6 +425,22 @@ body {
     width: 344px;
     height: 236px;
   }
+  .Game-2__seasons_title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+  }
+  .Game-2__seasons_subtitle {
+    width: 343px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+  }
+  .Game-2__img_mobile {
+    width: 344px;
+    height: 236px;
+  }
 }
 @media (max-width: 375px) {
   .center {
@@ -508,6 +537,13 @@ body {
     font-size: 14px;
   }
   .Game-1__img_mobile {
+    width: 312px;
+    height: 234px;
+  }
+  .Game-2__seasons_subtitle {
+    font-size: 14px;
+  }
+  .Game-2__img_mobile {
     width: 312px;
     height: 234px;
   }
