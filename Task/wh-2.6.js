@@ -68,7 +68,7 @@ for (let index = 0; index < whole.length - 1; index++) {
   console.log(sum);
 }
 
-const number = [1, 2, 3, 4]
+const number = [1, 2, 3, 60];
 function square(number) {
 	return number.map(n => n ** 2).join(', ');
 }
