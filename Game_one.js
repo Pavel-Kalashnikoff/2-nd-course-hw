@@ -40,4 +40,22 @@ function GameOne() {
 // 	break;
 // }
 // }
+function GameTwo() {
+	const word = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+	const wordRandom = word.sort(() => Math.random() - 0.5);
+	let oneEl = wordRandom[0];
+	let lastEl = wordRandom[6];
+	// console.log(oneEl);
+	// console.log(lastEl);
+	alert(wordRandom.join(', '));
+	let one = prompt('Чему равнялся первый элемент массива? ');
+	let last = prompt('Чему равнялся последний элемент массива? ');
+	if (one.toLowerCase() === oneEl.toLowerCase() && last.toLowerCase() === lastEl.toLowerCase()) {
+		alert('Поздравляю, вы успешно угадали оба элемента!');
+	} else if ((one.toLowerCase() === oneEl.toLowerCase() && last.toLowerCase() !== lastEl.toLowerCase()) || (one.toLowerCase() !== oneEl.toLowerCase() && last.toLowerCase() === lastEl.toLowerCase()) ) {
+		alert('Вы были близки к победе!');
+	} else {
+		alert('Вы угадали неверно(')
+	}
+}
 
