@@ -78,7 +78,8 @@ console.log(resul);
 
 
 function word(arrey) {
-	return wordlen = arrey.map(len => len.length);
+	let wordlen = arrey.map(len => len.length);
+	return wordlen;
 }
 const arreyLen = ['слово', '', 'слог', 'длинное предложение', 'буква']
 const len = word(arreyLen);
@@ -86,7 +87,8 @@ console.log(len);
 
 
 function filterPositive(array) {
-	return negativ = array.filter(n => n < 0);
+	let negativ = array.filter(n => n < 0);
+	return negativ;
 }
 
 console.log(filterPositive([-1, 0, 5, -10, 56])); // => [-1, -10]
