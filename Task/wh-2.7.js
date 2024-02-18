@@ -29,16 +29,19 @@ console.log(RegUp);
 // 		console.log(word);
 // 	}
 // })
-function search() {
-	let searchStart = ['Кошка', 'Кит', 'Комар', 'Носорог'];
-	let searchCat = ['Кошка', 'Комар'];
-
-	return searchStart.filter(word => searchCat.includes(word));
+function search(arrey, str) { // два параметра принимающих массив сторк и строчку
+	return arrey.filter(el => el.toLowerCase().startsWith(str.toLowerCase())) 
 }
+const res_1 = search(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко');
+const res_2 = search(['яблоко', 'груша', 'гриб', 'огурец'], 'гру'); 
+const res_3 = search(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино'); 
 
-const res = search();
-console.log(res);
+console.log(res_1);
+console.log(res_2);
+console.log(res_3);
 // не очень понял, но очень интересно. Необходимо потренироваться с методами
+
+
 
 
 //Задание №3 - Округлите число
@@ -86,7 +89,7 @@ console.log(result);
 function getRandomArrNumber(max) {
 	const randomArrNumber = [];
 	max = Math.ceil(max);
-	for (let i = 0; i < 3; i++) { // Цикл для генерации случайных чисел в пределах 3 
+	for (let i = 0; i < max / 2; i++) { // Цикл для генерации случайных чисел в пределах 3 
 		let randomN = Math.floor(Math.random() * max); // Приводим к меньшему число, то которое появляется рандомно и умножается на 7
 		randomArrNumber.push(randomN);
 	}
