@@ -1,9 +1,9 @@
 const a = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < a.length; i++) {
-	console.log(a[i]);
 	if (a[i] === 10) {
 		break;
 	}
+	console.log(a[i]);
 }
 
 const arr = [1, 5, 4, 10, 0, 3];
@@ -33,16 +33,13 @@ arreyPush.push(2, 2, 2);
 console.log(arreyPush);
 
 const arrSort = [9, 8, 7, 'a', 6, 5];
-	arrSort.sort ();
-	console.log(arrSort); // вывел в консоль для определения индекса
-	const index = 5;
-	arrSort.splice(index, 1); // Определил индекст "а" и удалил его методов splice
-	console.log(arrSort); 
- 
-// console.log(arrSort.sort (),arrSort.splice(5)) Решил сократить написание, так будет корректно? 
+// arrSort.sort ();
+// arrSort.splice(5);
+// console.log(arrSort);
+console.log(arrSort.sort (),arrSort.splice(5)) // Решил сократить написание, так будет корректно? 
 
-game()
-function game() {
+Game()
+function Game() {
 	const arrGame = [9, 8, 7, 6, 5];
 	let p = prompt('Попробуй угадать число в невидимом массиве');
 	if (arrGame.includes(p)) {
@@ -60,50 +57,35 @@ const arrey2 = [[1, 2, 3], [4, 5,6]];
 const flatA = arrey2.flat();
 console.log(flatA);
 
-const whole = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (let index = 0; index < whole.length - 1; index++) {
-	const a = whole[index];
-	const b = whole[index + 1];
+const Whole = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let index = 0; index < Whole.length - 1; index++) {
+	const a = Whole[index];
+	const b = Whole[index + 1];
   const sum = a + b;
   console.log(sum);
 }
 
-
-
-function square(number) {
-	return number.map(n => n ** 2);
+const Number = [1, 2, 3, 4,]
+function square(Number) {
+	const square = Number.map(n => n ** 2)
+	return square
 }
-const number = [1, 2, 3, 4];
-=======
-const number = [1, 2, 3, 4]
-function square(number) {
-	return number.map(n => n ** 2).join(', ');
-}
-
-const resul = square(number);
+const resul = square(Number);
 console.log(resul);
 
 
-function word(arrey) {
-
-	let wordlen = arrey.map(len => len.length);
-	return wordlen;
-=======
-	return wordlen = arrey.map(len => len.length);
-
+function Word(arrey) {
+	const Wordlen = arrey.map(len => len.length);
+	 return Wordlen
 }
 const arreyLen = ['слово', '', 'слог', 'длинное предложение', 'буква']
-const len = word(arreyLen);
+const len = Word(arreyLen);
 console.log(len);
 
 
 function filterPositive(array) {
-
-	let negativ = array.filter(n => n < 0);
-	return negativ;
-=======
-	return negativ = array.filter(n => n < 0);
-
+	const negativ = array.filter(n => n < 0);
+  return negativ;
 }
 
 console.log(filterPositive([-1, 0, 5, -10, 56])); // => [-1, -10]
