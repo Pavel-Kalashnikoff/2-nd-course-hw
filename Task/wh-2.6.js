@@ -69,17 +69,28 @@ for (let index = 0; index < whole.length - 1; index++) {
 }
 
 
+
 function square(number) {
 	return number.map(n => n ** 2);
 }
 const number = [1, 2, 3, 4];
+=======
+const number = [1, 2, 3, 4]
+function square(number) {
+	return number.map(n => n ** 2).join(', ');
+}
+
 const resul = square(number);
 console.log(resul);
 
 
 function word(arrey) {
+
 	let wordlen = arrey.map(len => len.length);
 	return wordlen;
+=======
+	return wordlen = arrey.map(len => len.length);
+
 }
 const arreyLen = ['слово', '', 'слог', 'длинное предложение', 'буква']
 const len = word(arreyLen);
@@ -87,8 +98,12 @@ console.log(len);
 
 
 function filterPositive(array) {
+
 	let negativ = array.filter(n => n < 0);
 	return negativ;
+=======
+	return negativ = array.filter(n => n < 0);
+
 }
 
 console.log(filterPositive([-1, 0, 5, -10, 56])); // => [-1, -10]
