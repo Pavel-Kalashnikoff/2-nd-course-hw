@@ -61,7 +61,7 @@ function isPositive(num) {
 	function delayForSecond(callback) {
 		setTimeout(() => {
 			callback();
-		}, 1000);
+		}, 5000); // изменил на 5 секунд 
  }
  
  delayForSecond(function () {
@@ -71,3 +71,22 @@ function isPositive(num) {
  // Задание №5 Исправить ошибку в коде
 
  
+function delayForSecond_2(cb) {
+	setTimeout(() => {
+			console.log('Прошла одна секунда');
+			if(cb) { 	cb(); }
+
+	}, 1000)
+}
+
+
+function sayHi (name) {
+	console.log(`Привет, ${name}!`);
+}
+
+// Код выше менять нельзя
+
+// Нужно изменить код ниже:
+delayForSecond_2(() => {
+	sayHi('Глеб');
+});
