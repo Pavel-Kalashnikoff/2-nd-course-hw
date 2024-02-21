@@ -43,4 +43,17 @@ function isPositive(num) {
 	console.log(filter(people_1, isMale)); // Должен выводить [{name: 'Глеб', gender: 'male'},  {name: 'Олег', gender: 'male'}]
 
 
+	// Задание №3 написать программу которая выводит каждые 3 секунды сообщение с датой 30 секунд
+
+
+
+	const interval = setInterval(() => {
+		const date = new Date();
+		console.log (date);
+	}, 3000);
+	setTimeout(() => {
+		clearInterval(interval);
+		console.log('30 секунд прошло')
+	}, 30000);
+
 	
