@@ -56,4 +56,18 @@ function isPositive(num) {
 		console.log('30 секунд прошло')
 	}, 30000);
 
-	
+	// Задание №4 дописать функцию, чтобы сообщение выводилось через 1 сек
+
+	function delayForSecond(callback) {
+		setTimeout(() => {
+			callback();
+		}, 1000);
+ }
+ 
+ delayForSecond(function () {
+		console.log('Привет, Глеб!');
+ })
+
+ // Задание №5 Исправить ошибку в коде
+
+ 
